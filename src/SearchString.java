@@ -24,7 +24,7 @@ public class SearchString {
         String line;
         while((line = bf.readLine()) != null){
             if(line.contains(list[1])) System.out.println("--" + line);
-//            System.out.println(line.contains(list[1]) ? line : "No matches");
+//            System.out.println(line.contains(list[1]) ? line : "No matches"); //
            /* Matcher match = pattern.matcher(line);
             while(match.find()){
                 System.out.println(bf.readLine().substring(match.group(0)));
